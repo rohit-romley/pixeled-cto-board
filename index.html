@@ -21,29 +21,29 @@
     </div>
     <p class="updated">
       Last updated
-      <time id="updated" datetime="2026-08-16T03:44:00Z">Sat, 15 Aug 2026, 9:44 PM MDT</time>
+      <time id="updated" datetime="2026-08-16T19:44:00Z">Sun, 16 Aug 2026, 1:44 PM MDT</time>
     </p>
   </header>
 
   <main>
     <section class="summary" id="summary" aria-labelledby="summary-title">
       <p class="kicker">Where we’re at</p>
-      <h1 id="summary-title">Eduable nits landed on staging-tanstack. Mockaccino #15 held.</h1>
+      <h1 id="summary-title">Mockaccino #16 store-delete fold is in the pack. Sign in so we can click trash.</h1>
       <ul class="stats">
         <li class="stat overall">
           <p class="stat-k">Overall</p>
-          <p class="stat-v">Eduable nits landed on staging-tanstack only. Mockaccino #15 gate-complete and held.</p>
+          <p class="stat-v">#16 ready @ b5b8335. Dest loaded. Trash not verified yet. One new Bugbot Medium parked.</p>
         </li>
         <li class="stat wait">
           <p class="stat-k">Needs you</p>
-          <p class="stat-v">Hold #15 — no merge, no Chrome store. Eduable nits stay on staging-tanstack only.</p>
+          <p class="stat-v">Sign in with LinkedIn on the Mockaccino dashboard (Connect to LinkedIn). Reload dropped the session.</p>
         </li>
         <li class="stat flight">
           <p class="stat-k">In flight</p>
-          <p class="stat-v">#15 hold merge</p>
+          <p class="stat-v">#16 trash click-through, then fold the Medium. #15 still held.</p>
         </li>
       </ul>
-      <p class="quiet">Eduable: never Next.js staging, never Cloudflare/Supabase deploy. Mockaccino: no Chrome store deploy. Bugbot: draft while building, mark ready for review so Bugbot fires, no SHIP/merge until Bugbot on the current SHA. High/Medium fold into the same PR. Autofix off.</p>
+      <p class="quiet">No merge. No Chrome store deploy. No GRANT on public.users. Autofix off. Eduable stays on staging-tanstack only, never Next.js staging.</p>
     </section>
 
     <nav class="tabs" aria-label="Projects">
@@ -58,22 +58,27 @@
       <header class="project-head">
         <div>
           <h2 id="eduable-title">Eduable</h2>
-          <p class="sub">TanStack nits · on staging-tanstack</p>
+          <p class="sub">TanStack · staging-tanstack only</p>
         </div>
         <p class="pill pass">Parked</p>
       </header>
       <div class="lanes" aria-label="Eduable swim lanes">
         <section class="lane">
-          <h3>Backlog <span class="count">0</span></h3>
-          <p class="empty">Nothing held</p>
+          <h3>Backlog <span class="count">1</span></h3>
+          <ul>
+            <li class="ticket">
+              <p class="t">Empty Open-quote alert leftover</p>
+              <p class="d">Optional · after #16 · staging-tanstack only · never Next.js staging</p>
+            </li>
+          </ul>
         </section>
         <section class="lane">
           <h3>Doing <span class="count">0</span></h3>
-          <p class="empty">Parked</p>
+          <p class="empty">Parked until #16 trash is done</p>
         </section>
         <section class="lane">
           <h3>Waiting <span class="count">0</span></h3>
-          <p class="empty">None for these nits</p>
+          <p class="empty">Nothing on you</p>
         </section>
         <section class="lane done">
           <h3>Done <span class="count">4</span></h3>
@@ -84,11 +89,11 @@
             </li>
             <li class="ticket">
               <p class="t"><a href="https://github.com/rohit-romley/eduable-dev/pull/33">#33</a> Hub country-select</p>
-              <p class="d">Squash-merged 6f40fe4 · Review SHIP · Bugbot success · York/New York medium folded before merge · staging-tanstack only</p>
+              <p class="d">Squash-merged 6f40fe4 · Review SHIP · Bugbot success · staging-tanstack only</p>
             </li>
             <li class="ticket">
               <p class="t">Local Vite 3013 overlay</p>
-              <p class="d">SHA 6f40fe4 matches HEAD · QA parked there</p>
+              <p class="d">Matches staging-tanstack HEAD · QA parked there</p>
             </li>
             <li class="ticket">
               <p class="t">Leftovers #29–#32</p>
@@ -103,46 +108,60 @@
       <header class="project-head">
         <div>
           <h2 id="mock-title">Mockaccino</h2>
-          <p class="sub">Chrome extension · #15 held</p>
+          <p class="sub">Chrome extension · #16 ready, trash unverified</p>
         </div>
-        <p class="pill wait">Held</p>
+        <p class="pill wait">Needs sign-in</p>
       </header>
       <div class="lanes" aria-label="Mockaccino swim lanes">
         <section class="lane">
-          <h3>Backlog <span class="count">0</span></h3>
-          <p class="empty">Nothing held</p>
-        </section>
-        <section class="lane flight">
-          <h3>Doing <span class="count">1</span></h3>
+          <h3>Backlog <span class="count">1</span></h3>
           <ul>
             <li class="ticket">
+              <p class="t">Bugbot Medium on #16</p>
+              <p class="d">Purchase block skips UI branch · fold into same ready PR after trash is green · Autofix off</p>
+            </li>
+          </ul>
+        </section>
+        <section class="lane flight">
+          <h3>Doing <span class="count">2</span></h3>
+          <ul>
+            <li class="ticket">
+              <p class="t"><a href="https://github.com/rohit-romley/mockaccino-chrome-main/pull/16">#16</a> store-delete fold</p>
+              <p class="d">Ready @ b5b8335 · dest loaded v5.0.0 · trash now uses live admin_delete_karma_store_item · no new SQL · no GRANT · Bugbot reviewed this SHA</p>
+            </li>
+            <li class="ticket">
               <p class="t"><a href="https://github.com/rohit-romley/mockaccino-chrome-main/pull/15">#15</a> hold merge</p>
-              <p class="d">Ready @ 2e5d622 · v5.0.0 · 4.4MB · Bugbot success · High/Medium resolved (pending-window HIGH, epoch date MEDIUM, silent recent MEDIUM, plus earlier auth Highs) · Autofix off · do not merge · do not store-deploy</p>
+              <p class="d">Ready @ 2e5d622 · stack under #16 · do not merge · do not store-deploy</p>
             </li>
           </ul>
         </section>
         <section class="lane">
-          <h3>Waiting <span class="count">0</span></h3>
-          <p class="empty">Nothing on you</p>
+          <h3>Waiting <span class="count">1</span></h3>
+          <ul>
+            <li class="ticket">
+              <p class="t">LinkedIn sign-in on this computer</p>
+              <p class="d">Remove + Load unpacked wiped the Rohit session · Connect to LinkedIn on the dashboard · then trash click on a disposable item</p>
+            </li>
+          </ul>
         </section>
         <section class="lane done">
           <h3>Done <span class="count">5</span></h3>
           <ul>
             <li class="ticket">
+              <p class="t">Admin suite packet 5 live</p>
+              <p class="d">Directory, dossier, CAST SQL, pagination/search folds · Requests Inbox/Sent green on dest 5d96bb4</p>
+            </li>
+            <li class="ticket">
               <p class="t">Admin Jobs KPI live</p>
-              <p class="d">86 via get_admin_jobs_applied_count · Members 20 · Karma 2210 · signed in as rohit-romley (karma 280)</p>
-            </li>
-            <li class="ticket">
-              <p class="t">QA signed-out PASS</p>
-              <p class="d">Open Dashboard settings · Options toggles OFF · empty states · no Invalid Date · Career Read more · Admin/Jobs/Store/Requests blocked</p>
-            </li>
-            <li class="ticket">
-              <p class="t">QA signed-in Admin PASS</p>
-              <p class="d">Requests Pending 4 / Accepted 1 / Declined 9 / Completed 8 · Store Analytics 61 items · Jobs 86 · no 1/1/1970 · no admin_assert_store_admin error</p>
+              <p class="d">86 via get_admin_jobs_applied_count · Members 20 · Karma 2210 · Rohit 280</p>
             </li>
             <li class="ticket">
               <p class="t">Auth hard cutover (PR #14)</p>
               <p class="d">Already on main · SHA 8b7af47 · LinkedIn OAuth / Supabase Auth JWT · no Chrome store deploy</p>
+            </li>
+            <li class="ticket">
+              <p class="t">QA signed-out gate</p>
+              <p class="d">b5b8335 pack enabled · dashboard Connect gate · no Admin nav when signed out</p>
             </li>
             <li class="ticket">
               <p class="t">Earlier stack</p>
